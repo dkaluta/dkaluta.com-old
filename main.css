@@ -1,32 +1,30 @@
-p{
-	font-family: Helvetica, Arial, sans-serif;
-}
-#siteTitle{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 72px;
-}
-#entireSite{
-	text-align: center;
-}
-#subTitle{
-	font-family: Inconsolata, Consolas, Courier New, monospace;
-}
-footer{
-	position:fixed;
-	bottom:0;
-	width:100%;
-}
-header{
-	width:100%;
-}
-img{
-	width:50px;
-	height:50px;
-}
+p {
+  font-family: Helvetica, Arial, sans-serif; }
+
+#SiteTitle {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 72px; }
+
+#subTitle {
+  font-family: Menlo, Inconsolata, Consolas, Courier New, monospace; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+header {
+  width: 100%; }
+
+img {
+  width: 50px;
+  height: 50px; }
+
 table.center {
-	margin-left:auto; 
-    margin-right:auto;
-}
-.icons{
-	color:black;
-}
+  margin-left: auto;
+  margin-right: auto; }
+
+.icons {
+  color: black; }
+
+/*# sourceMappingURL=main.css.map */
