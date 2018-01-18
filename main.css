@@ -1,15 +1,12 @@
 p {
   font-family: Helvetica, Arial, sans-serif; }
 
-#SiteTitle {
+#siteTitle {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 72px; }
 
 #entireSite {
   text-align: center; }
-
-#siteTitle {
-  font-family: Helvetica, Arial, sans-serif; }
 
 #subTitle {
   font-family: Menlo, Inconsolata, Consolas, Courier New, monospace; }
