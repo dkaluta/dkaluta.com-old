@@ -31,3 +31,39 @@ table.center {
   color: black; }
 
 /*# sourceMappingURL=main.css.map */
+p {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: black; }
+
+#siteTitle {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 72px;
+  color: black; }
+
+#entireSite {
+  text-align: center; }
+
+#subTitle {
+  font-family: Menlo, Inconsolata, Consolas, "Courier New", monospace;
+  color: black; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: black; }
+
+header {
+  width: 100%;
+  color: black; }
+
+img {
+  width: 50px;
+  height: 50px; }
+
+table.center {
+  margin-left: auto;
+  margin-right: auto; }
+
+.black-links {
+  color: black; }

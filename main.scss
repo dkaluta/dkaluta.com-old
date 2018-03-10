@@ -2,11 +2,13 @@ $fonts: "Helvetica Neue", Arial, sans-serif;
 
 p {
     font-family: $fonts;
+    color: black;
 }
 
 #siteTitle {
     font-family: $fonts;
     font-size: 72px;
+    color: black;
 }
 
 #entireSite {
@@ -15,16 +17,19 @@ p {
 
 #subTitle {
     font-family: Menlo, Inconsolata, Consolas, "Courier New", monospace;
+    color: black;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: black;
 }
 
 header {
     width: 100%;
+    color: black;
 }
 
 img {
