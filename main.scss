@@ -43,7 +43,8 @@ table.center {
 }
 
 .links-table {
-    cellpadding: 10px;
+    border-spacing: 10px;
+    border-collapse: separate;
 }
 
 .black-links {
