@@ -12,7 +12,11 @@ p {
 }
 
 #entireSite {
-    text-align: center;
+    text-align: center; 
+    position: absolute; 
+    top: 25%; 
+    bottom: 50%; 
+    width: 100%;
 }
 
 #subTitle {
