@@ -3,6 +3,20 @@
 This is the website/portfolio of David Kaluta, a bored guy with a laptop and
 an internet connection.
 
+## Social
+
+[Twitter](https://twitter.com/davidkaluta)
+
+[Github](https://github.com/DavidKaluta)
+
+[Bitbucket](https://bitbucket.org/DavidKaluta/)
+
+[GitLab](https://gitlab.com/davidkaluta/)
+
+[YouTube](https://www.youtube.com/channel/UCkwJrQWyjAa8bmp5hw7glOQ)
+
+[Steam](http://steamcommunity.com/id/CDM1337/)
+
 ## SPECS
 
 ### Gaming PC
