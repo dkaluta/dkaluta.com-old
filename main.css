@@ -1,56 +1,43 @@
-p {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  color: black;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.flex-container {
+    display: flex;
+    justify-content: center;
 }
 
-#siteTitle {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 72px;
-  color: black;
+.grid-container {
+    display: grid;
+    grid-template-columns: 50vw auto;
+    grid-template-rows: auto auto auto auto auto;
+    height: 50vh;
+    margin: auto;
+    padding: 75px;
 }
 
-#entireSite {
-  text-align: center;
-  position: absolute;
-  top: 25%;
-  bottom: 50%;
-  width: 100%;
+#heading {
+    font-size: 28pt;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
 }
 
-#subTitle {
-  font-family: Menlo, Inconsolata, Consolas, "Courier New", monospace;
-  color: black;
+.grid-item {
+    font-size: 20pt;
+    padding: 20px;
+    text-align: left;
+    font-family: "Source Code Pro", monospace;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  color: black;
+#hero {
+    background: url('resources/pentool.png');
+    grid-row-start: 1;
+    grid-row-end: 6;
+    background-size: 50vw 50vw;
 }
 
-header {
-  width: 100%;
-  color: black;
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #hero {
+        background: url('resources/pentool@2x.png');
+        background-size: 50vw 50vw;
+    }
 }
-
-img {
-  width: 50px;
-  height: 50px;
-}
-
-table.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.links-table {
-  border-spacing: 10px;
-  border-collapse: separate;
-}
-
-.black-links {
-  color: black;
-}
-
-/*# sourceMappingURL=main.css.map */
