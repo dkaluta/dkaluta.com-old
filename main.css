@@ -9,7 +9,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 50vw auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     height: 50vh;
     margin: auto;
     padding: 75px;
@@ -31,7 +31,7 @@
 #hero {
     background: url('resources/pentool.png');
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 7;
     background-size: 50vw 50vw;
 }
 
