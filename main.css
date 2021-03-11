@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 .flex-container {
@@ -17,8 +17,8 @@
 
 #heading {
     font-size: 28pt;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
+    font-weight: bold;
 }
 
 .grid-item {
@@ -29,15 +29,41 @@
 }
 
 #hero {
-    background: url('resources/pentool.png');
+    background: url('resources/lines.png');
     grid-row-start: 1;
     grid-row-end: 7;
-    background-size: 50vw 50vw;
+    background-size: 75vw 75vw;
+    border-radius: 25px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     #hero {
-        background: url('resources/pentool@2x.png');
+        background: url('resources/lines@2x.png');
         background-size: 50vw 50vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 25vh;
+        grid-template-rows: 25vh auto auto auto auto auto auto;
+        height: 50vh;
+        margin: auto;
+        padding: 75px;
+    }
+    
+    #hero {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    #heading {
+        font-size: 18pt;
+    }
+
+    .grid-item {
+        font-size: 12pt;
+        padding: 10px;
     }
 }
